@@ -1,0 +1,22 @@
+{
+  "exercises": [
+    {"id": "e01", "name": "Goblet Squat", "target": "Legs", "gear": "Dumbbell", "sets": "3 x 10", "cue": "Hold the weight at the chest, sit between the hips, keep the chest tall."},
+    {"id": "e02", "name": "Romanian Deadlift", "target": "Hamstrings", "gear": "Barbell", "sets": "3 x 8", "cue": "Push the hips back, bar stays close, stop when the hamstrings bite."},
+    {"id": "e03", "name": "Split Squat", "target": "Legs", "gear": "Bodyweight", "sets": "3 x 10 each", "cue": "Back knee straight down, front shin near vertical."},
+    {"id": "e04", "name": "Push-up", "target": "Chest", "gear": "Bodyweight", "sets": "3 x 12", "cue": "Body in one line, elbows about 45 degrees from the ribs."},
+    {"id": "e05", "name": "Inverted Row", "target": "Back", "gear": "Bar", "sets": "3 x 10", "cue": "Squeeze the shoulder blades first, then pull the chest to the bar."},
+    {"id": "e06", "name": "Overhead Press", "target": "Shoulders", "gear": "Dumbbell", "sets": "3 x 8", "cue": "Ribs down, press slightly back so the head clears."},
+    {"id": "e07", "name": "Plank", "target": "Core", "gear": "Bodyweight", "sets": "3 x 40s", "cue": "Squeeze the glutes; the hips should not sag or pike."},
+    {"id": "e08", "name": "Side Plank", "target": "Core", "gear": "Bodyweight", "sets": "3 x 30s each", "cue": "Stack the feet and lift the hips until the body is one line."},
+    {"id": "e09", "name": "Hip Thrust", "target": "Glutes", "gear": "Barbell", "sets": "3 x 10", "cue": "Chin tucked, drive through the heels, pause at the top."},
+    {"id": "e10", "name": "Nordic Curl", "target": "Hamstrings", "gear": "Partner", "sets": "3 x 5", "cue": "Lower as slowly as you can control; push back up with the hands."},
+    {"id": "e11", "name": "Calf Raise", "target": "Calves", "gear": "Step", "sets": "3 x 15", "cue": "Full stretch at the bottom, hold a second at the top."},
+    {"id": "e12", "name": "Copenhagen Plank", "target": "Adductors", "gear": "Bench", "sets": "3 x 20s each", "cue": "Top leg on the bench, lift the hips and hold square."},
+    {"id": "e13", "name": "Farmer Carry", "target": "Grip", "gear": "Dumbbell", "sets": "3 x 30 m", "cue": "Tall posture, shoulders down, do not let the weights swing."},
+    {"id": "e14", "name": "Med Ball Slam", "target": "Power", "gear": "Medicine ball", "sets": "4 x 6", "cue": "Full extension overhead, then throw down as hard as you can."},
+    {"id": "e15", "name": "Box Jump", "target": "Power", "gear": "Box", "sets": "4 x 5", "cue": "Land soft in a quarter squat; step down rather than jump down."},
+    {"id": "e16", "name": "Dead Bug", "target": "Core", "gear": "Bodyweight", "sets": "3 x 8 each", "cue": "Lower back pressed flat throughout; move slowly."},
+    {"id": "e17", "name": "Face Pull", "target": "Rear delts", "gear": "Band", "sets": "3 x 15", "cue": "Pull to the forehead, thumbs back, pause at the end."},
+    {"id": "e18", "name": "Lateral Lunge", "target": "Legs", "gear": "Bodyweight", "sets": "3 x 8 each", "cue": "Step wide, sit into that hip, keep the other leg straight."}
+  ]
+}

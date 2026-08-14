@@ -250,8 +250,14 @@ class _ProductAppState extends State<ProductApp> {
                       ],
                     ),
                   ),
+                  // Тема задаёт кнопкам minimumSize: Size.fromHeight(52), а у
+                  // него бесконечная ширина. В Row без Expanded это требование
+                  // невыполнимо, поэтому здесь ширину отпускаем.
                   FilledButton.tonalIcon(
                     onPressed: _openSession,
+                    style: FilledButton.styleFrom(
+                      minimumSize: const Size(0, 44),
+                    ),
                     icon: const Icon(Icons.list_alt_rounded, size: 18),
                     label: Text('${_session.length}'),
                   ),
@@ -306,7 +312,16 @@ class _ProductAppState extends State<ProductApp> {
               ],
             ),
             const SizedBox(height: 18),
-            Text(exercise.name, style: AppTheme.display(28, height: 1.15)),
+            // Гибкий и с потолком в две строки: длинное название на узком
+            // экране иначе выдавливает карточку за пределы страницы.
+            Flexible(
+              child: Text(
+                exercise.name,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: AppTheme.display(26, height: 1.15),
+              ),
+            ),
             const SizedBox(height: 10),
             if (exercise.sets.isNotEmpty)
               Text(
